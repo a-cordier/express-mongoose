@@ -9,7 +9,6 @@ In this basic example we serve documents called "votes" which are bound to a mon
 ##Project structure:
 
 ```
-
 app
 ├── controllers
 │   ├── index.js << Controllers single entry point
