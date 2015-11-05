@@ -12,14 +12,14 @@ In this basic example we serve documents called "votes" which are bound to a mon
 .
 ├── app
 │   ├── controllers
-│   │   ├── index.js
+│   │   ├── index.js << Controllers single entry point
 │   │   └── voteController.js
 │   ├── log
 │   │   └── all.log
-│   ├── logger.js
-│   ├── model
-│   │   └── vote.js
+│   ├── logger.js 
+│   ├── model << Model definition
+│   │   └── vote.js 
 │   ├── server.js
 │   └── util
-│       └── logger.js
+│       └── logger.js << Logging config
 ```
