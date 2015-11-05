@@ -9,17 +9,17 @@ In this basic example we serve documents called "votes" which are bound to a mon
 ##Project structure:
 
 ```
-.
-├── app
-│   ├── controllers
-│   │   ├── index.js << Controllers single entry point
-│   │   └── voteController.js
-│   ├── log
-│   │   └── all.log
-│   ├── logger.js 
-│   ├── model << Model definition
-│   │   └── vote.js 
-│   ├── server.js
-│   └── util
-│       └── logger.js << Logging config
+
+app
+├── controllers
+│   ├── index.js << Controllers single entry point
+│   └── voteController.js
+├── log
+│   └── all.log
+├── logger.js 
+├── model << Model definitions
+│   └── vote.js 
+├── server.js
+└── util
+    └── logger.js << Logging config
 ```
