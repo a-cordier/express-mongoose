@@ -2,7 +2,7 @@
 
 ## Description
 
-This excerpt from a nascent project could be used as a bootstrap for developping restfull services serving mongodb collections
+This excerpt from a nascent project could be used as a bootstrap for developping restfull services exposing mongodb collections
 
 In this basic example we serve documents called "votes" which are bound to a mongoose schema
 
